@@ -1,0 +1,51 @@
+{
+    "name": "sln-support",
+    "displayName": "SLN Support",
+    "description": "Visual Studio solution file support for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "logerfo",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "homepage": "https://github.com/Logerfo/sln-support/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Logerfo/sln-support.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Logerfo/sln-support/issues",
+        "email": "bruno@logerfo.tk"
+    },
+    "author": {
+        "email": "bruno@logerfo.tk",
+        "name": "Bruno Logerfo",
+        "url": "https://github.com/Logerfo"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "sln",
+        "visual studio",
+        "solution",
+        "vs"
+    ],
+    "license": "Unlicense",
+    "galleryBanner": {
+        "color": "#181818",
+        "theme": "dark"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "sln",
+            "aliases": ["Solution File", "sln"],
+            "extensions": [".sln"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sln",
+            "scopeName": "text.sln",
+            "path": "./syntaxes/sln.tmLanguage.json"
+        }]
+    }
+}
