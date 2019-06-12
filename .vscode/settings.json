@@ -2,4 +2,7 @@
     "spellright.language": [
         "en"
     ],
+    "spellright.documentTypes": [
+        "markdown",
+    ]
 }
