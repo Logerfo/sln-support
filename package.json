@@ -10,7 +10,7 @@
     "homepage": "https://github.com/Logerfo/sln-support/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Logerfo/sln-support.git"
+        "url": "https://github.com/Logerfo/sln-support.git"
     },
     "bugs": {
         "url": "https://github.com/Logerfo/sln-support/issues",
