@@ -8,7 +8,7 @@ This extension is based on a [similar work](https://github.com/rzhw/language-sln
 
 ## Contributing
 
-If you have suggestions for how close-label could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
+If you have suggestions for how sln-support could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
